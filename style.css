@@ -1,0 +1,40 @@
+
+body {
+  background-color: #000;
+  color: gold;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+input, select, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+button {
+  background-color: gold;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+.stake-entry {
+  background-color: #222;
+  border: 1px solid gold;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.stake-entry button {
+  background-color: gold;
+  color: black;
+  margin-top: 5px;
+}
